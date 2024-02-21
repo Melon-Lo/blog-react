@@ -1,11 +1,11 @@
+import MainPage from './pages/MainPage';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        hi
-      </header>
+      <MainPage />
     </div>
   );
 }
