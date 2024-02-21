@@ -7,7 +7,7 @@ import logo from '../assets/icon/logo.png'
 import hamburger from '../assets/icon/hamburger.png'
 import cross from '../assets/icon/cross.png'
 
-export default function Navbar() {
+function Navbar() {
   const [isToggled, setIsToggled] = useState(false)
   const [linksState, setLinksState] = useState('')
   const { width, windowSize } = useContext(RWDContext)
@@ -62,3 +62,5 @@ export default function Navbar() {
     </section>
   )
 }
+
+export default Navbar

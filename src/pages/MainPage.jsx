@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar";
 
-export default function MainPage() {
+function MainPage() {
   return (
     <div id="mainPage">
       <Navbar />
     </div>
   )
 }
+
+export default MainPage
